@@ -6,7 +6,7 @@ metadata:
   labels:
     name: {{.Release.Name}}
 spec:
-  type: ClusterIP
+  # type: ClusterIP
   ports:
   - port: 8080
   selector:
